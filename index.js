@@ -34,7 +34,7 @@ function Request(jsonName) {
 }
 
 function main() {
-    const folderName = 'dist/tfd';
+    const folderName = 'dist';
 
     // 폴더 없는 경우 폴더 생성
     if (!fs.existsSync(folderName)) {
