@@ -1,0 +1,1 @@
+# firdic-scraper
