@@ -61,7 +61,7 @@ jobs:
           source-directory: dist/
           destination-github-username: drt0927
           destination-repository-name: firdic-static
-          commit-message: scraping-${{ steps.date.outputs.date }}
+          commit-message: scraping-${{ github.event.repository.updated_at }}
           user-email: drt_0927@naver.com
           # It defaults to `main`
           target-branch: main
