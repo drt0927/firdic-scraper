@@ -21,7 +21,10 @@ const jsonList = [
     '/amorphous-reward-group.json',
     '/ko/amorphous-open-condition-description.json',
     '/ko/acquisition-detail.json',
-    '/ko/weapon-type.json'
+    '/ko/weapon-type.json',
+    '/ko/fellow.json',
+    '/fellow-level-detail.json',
+    '/ko/tier.json'
 ];
 
 function Request(jsonName) {
