@@ -23,6 +23,7 @@ function process(descendants) {
     for (const desc of descendants) {
       if (desc.descendant_id === '101000002') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'AJAX',
           tier: 'normal',
           role: '탱커',
@@ -45,8 +46,9 @@ function process(descendants) {
           only_weapon_comment: `"자네 진심이야? 이 요란스러운 걸 투구에 붙여달라고? 근데 이거… 그레이브워커의 잔해 아닌가? 이걸 도대체 어디서 구해온 거야?"
 - 데슬린`
         });
-      } else if (desc.descendant_name === '101000004') {
+      } else if (desc.descendant_id === '101000004') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'ULT LEPIC',
           tier: 'ult',
           role: '딜러',
@@ -66,6 +68,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000008') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'FREYNA',
           tier: 'normal',
           role: '지속 딜러',
@@ -95,6 +98,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000009') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'GLEY',
           tier: 'normal',
           role: '딜러',
@@ -117,6 +121,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000011') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'SHAREN',
           tier: 'normal',
           role: '근접 딜러',
@@ -142,6 +147,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000012') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'BLAIR',
           tier: 'normal',
           role: '지속 딜러',
@@ -165,6 +171,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000013') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'VALBY',
           tier: 'normal',
           role: '지속 딜러',
@@ -186,6 +193,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000014') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'KYLE',
           tier: 'normal',
           role: '탱커형 딜러',
@@ -212,6 +220,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000015') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'ESIEMO',
           tier: 'normal',
           role: '누커',
@@ -234,6 +243,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000001') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'LEPIC',
           tier: 'normal',
           role: '딜러',
@@ -258,6 +268,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000003') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'VIESSA',
           tier: 'normal',
           role: '디버퍼',
@@ -285,6 +296,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000005') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'JAYBER',
           tier: 'normal',
           role: '유틸형 딜러',
@@ -306,6 +318,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000006') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'BUNNY',
           tier: 'normal',
           role: '지속 딜러',
@@ -338,6 +351,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000007') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'ULT AJAX',
           tier: 'ult',
           role: '탱커',
@@ -358,6 +372,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000010') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'ULT VIESSA',
           tier: 'ult',
           role: '디버퍼',
@@ -380,6 +395,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000016') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'ENZO',
           tier: 'normal',
           role: '서포터',
@@ -403,6 +419,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000017') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'YUJIN',
           tier: 'normal',
           role: '서포터',
@@ -427,6 +444,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000019') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'ULT BUNNY',
           tier: 'ult',
           role: '지속 딜러',
@@ -454,6 +472,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000020') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'ULT GLEY',
           tier: 'ult',
           role: '딜러',
@@ -474,6 +493,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000018') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'LUNA',
           tier: 'normal',
           role: '서포터',
@@ -508,6 +528,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000022') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'ULT VALBY',
           tier: 'ult',
           role: '지속 딜러',
@@ -530,6 +551,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000021') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'HAILEY',
           tier: 'normal',
           role: '원거리 딜러',
@@ -561,6 +583,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000023') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'ULT FREYNA',
           tier: 'ult',
           role: '지속 딜러',
@@ -590,6 +613,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000024') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'KEELAN',
           tier: 'normal',
           role: '지속 딜러',
@@ -624,6 +648,7 @@ function process(descendants) {
         });
       } else if (desc.descendant_id === '101000025') {
         descendantDetails.push({
+          descendant_id: desc.descendant_id,
           eng_name: 'ULT SHAREN',
           tier: 'ult',
           role: '근접 딜러',
