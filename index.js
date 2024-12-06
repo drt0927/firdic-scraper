@@ -2,7 +2,7 @@
 // const fs = require('fs');
 import axios from 'axios';
 import fs from 'fs';
-import { process as descendantProcess } from './descendant';
+import { process as descendantProcess } from './descendant.js';
 
 const baseUrl = 'https://open.api.nexon.com/static/tfd/meta';
 const apiKey = 'test_645470676a3bbb55286e489eef40ae9ecc9cc84a179a54abf948923c76d9d94cefe8d04e6d233bd35cf2fabdeb93fb0d';
@@ -61,7 +61,8 @@ function main() {
                 const fileName = names[names.length - 1];
                 const json = JSON.stringify(value.data);
                 if (fileName === 'descendant.json') {
-                    descendantProcess(value.data);
+                    const details = descendantProcess(value.data);
+                    fs.writeFileSync(`${folderName}/descendant-detail.json`, JSON.stringify(details), 'utf-8');
                 }
                 fs.writeFileSync(`${folderName}/${fileName}`, json, 'utf-8');
             }
